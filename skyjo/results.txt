@@ -1,0 +1,70 @@
+== Score moyen par manche (4 joueurs, même stratégie) ==
+  Aléatoire                          73.0
+  Seuil simple (≤4)                  27.4
+  Glouton (sans colonnes)            29.1
+  Colonnes                           25.9
+  Colonnes + fin maîtrisée           25.1
+  Complète (+ comptage)              24.2
+  Rush (finir vite)                  28.4
+  Lente (évite de retourner)         22.3
+  Optimisée (lente + exigeante)      19.9
+
+== Duels (2 joueurs, 300 parties par paire) : % de victoires ==
+  Aléatoire                        vs Seuil simple (≤4)                  0.0%
+  Aléatoire                        vs Glouton (sans colonnes)            0.0%
+  Aléatoire                        vs Colonnes                           0.0%
+  Aléatoire                        vs Colonnes + fin maîtrisée           0.0%
+  Aléatoire                        vs Complète (+ comptage)              0.0%
+  Aléatoire                        vs Rush (finir vite)                  0.3%
+  Aléatoire                        vs Lente (évite de retourner)         0.0%
+  Aléatoire                        vs Optimisée (lente + exigeante)      0.0%
+  Seuil simple (≤4)                vs Glouton (sans colonnes)           62.7%
+  Seuil simple (≤4)                vs Colonnes                          35.2%
+  Seuil simple (≤4)                vs Colonnes + fin maîtrisée          38.3%
+  Seuil simple (≤4)                vs Complète (+ comptage)             39.7%
+  Seuil simple (≤4)                vs Rush (finir vite)                 65.2%
+  Seuil simple (≤4)                vs Lente (évite de retourner)        22.0%
+  Seuil simple (≤4)                vs Optimisée (lente + exigeante)     19.7%
+  Glouton (sans colonnes)          vs Colonnes                          25.2%
+  Glouton (sans colonnes)          vs Colonnes + fin maîtrisée          31.3%
+  Glouton (sans colonnes)          vs Complète (+ comptage)             24.7%
+  Glouton (sans colonnes)          vs Rush (finir vite)                 57.3%
+  Glouton (sans colonnes)          vs Lente (évite de retourner)         9.7%
+  Glouton (sans colonnes)          vs Optimisée (lente + exigeante)      9.7%
+  Colonnes                         vs Colonnes + fin maîtrisée          48.3%
+  Colonnes                         vs Complète (+ comptage)             42.8%
+  Colonnes                         vs Rush (finir vite)                 71.2%
+  Colonnes                         vs Lente (évite de retourner)        35.0%
+  Colonnes                         vs Optimisée (lente + exigeante)     27.0%
+  Colonnes + fin maîtrisée         vs Complète (+ comptage)             47.0%
+  Colonnes + fin maîtrisée         vs Rush (finir vite)                 71.5%
+  Colonnes + fin maîtrisée         vs Lente (évite de retourner)        36.5%
+  Colonnes + fin maîtrisée         vs Optimisée (lente + exigeante)     26.3%
+  Complète (+ comptage)            vs Rush (finir vite)                 69.7%
+  Complète (+ comptage)            vs Lente (évite de retourner)        36.0%
+  Complète (+ comptage)            vs Optimisée (lente + exigeante)     28.2%
+  Rush (finir vite)                vs Lente (évite de retourner)        18.3%
+  Rush (finir vite)                vs Optimisée (lente + exigeante)     14.2%
+  Lente (évite de retourner)       vs Optimisée (lente + exigeante)     38.0%
+
+  Classement duels :
+    Optimisée (lente + exigeante)     79.6%
+    Lente (évite de retourner)        72.6%
+    Complète (+ comptage)             60.0%
+    Colonnes                          58.0%
+    Colonnes + fin maîtrisée          57.9%
+    Seuil simple (≤4)                 47.8%
+    Rush (finir vite)                 37.2%
+    Glouton (sans colonnes)           36.9%
+    Aléatoire                          0.0%
+
+== Mêlée à 4 joueurs (1200 parties) : % de victoires (25% = hasard) ==
+    Optimisée (lente + exigeante)     43.1%
+    Complète (+ comptage)             34.7%
+    Lente (évite de retourner)        31.4%
+    Colonnes + fin maîtrisée          31.2%
+    Colonnes                          28.9%
+    Seuil simple (≤4)                 25.6%
+    Rush (finir vite)                 17.4%
+    Glouton (sans colonnes)           14.0%
+    Aléatoire                          0.0%
