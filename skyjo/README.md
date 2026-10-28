@@ -51,8 +51,7 @@ python3 sweep.py 300
    remplace une carte visible plus haute d'au moins 3, ou qui complète une
    colonne). Sinon piocher : la pioche offre deux options (garder ou retourner)
    et peut sortir un -2/-1/0. Les réglages entre 2 et 5 points se valent.
-3. **Jouer les colonnes.** Commencer par retourner 2 cartes de la même colonne,
-   poser les cartes identiques dans une même colonne, viser les brelans de
+3. **Jouer les colonnes.** Poser les cartes identiques dans une même colonne, viser les brelans de
    cartes hautes (trois 10 retirés = -30 points). Gain : ~+20 points de % de
    victoire en duel par rapport au glouton.
 4. **Maîtriser la fin.** Ne retourner sa dernière carte que si son score est
@@ -60,9 +59,12 @@ python3 sweep.py 300
 5. **Compter les cartes** (espérance des cartes cachées selon ce qui est sorti) :
    petit gain supplémentaire (~+3 % de victoires à 4).
 
+   Retourner au départ 2 cartes de la même colonne n'apporte presque rien :
+   51,7 % de victoires contre 48,3 % sur 2 000 duels, écart non significatif.
+
 ## La meilleure tactique, en résumé
 
-> Commence avec deux cartes d'une même colonne. Ne prends la défausse que pour
+> Ne prends la défausse que pour
 > une très bonne affaire (≥ 3 points gagnés ou une colonne complétée). Sinon,
 > pioche : garde la carte si elle remplace une carte visible plus forte, sinon
 > défausse-la. Retourne des cartes cachées le moins possible. Laisse les autres
